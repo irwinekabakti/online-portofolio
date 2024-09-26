@@ -3,6 +3,7 @@ import { FC } from "react";
 const About: FC = () => {
   return (
     <div className="max-w-2xl mx-auto">
+      {/* // <div className="w-full md:w-2/5 lg:w-3/5 mx-auto my-8"> */}
       <h1 className="text-3xl font-bold mb-4 text-white text-center md:text-left">
         About Us
       </h1>

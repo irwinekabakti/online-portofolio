@@ -8,7 +8,7 @@ interface ExperienceItem {
   endDate: string;
 }
 
-const Experience: FC = () => {
+const Education: FC = () => {
   const experiences: ExperienceItem[] = [
     {
       title: "GitHub Campus Expert",
@@ -40,8 +40,9 @@ const Experience: FC = () => {
     <div className="max-w-2xl mx-auto">
       {/* // <div className="w-full md:w-2/5 lg:w-3/5 mx-auto my-8"> */}
       <h1 className="text-3xl font-bold mb-4 text-white text-center md:text-left">
-        Experience
+        Education
       </h1>
+
       <ul className="space-y-8">
         {experiences.map((experience, index) => (
           <li key={index} className="border-b border-gray-300 pb-4">
@@ -62,4 +63,4 @@ const Experience: FC = () => {
   );
 };
 
-export default Experience;
+export default Education;
